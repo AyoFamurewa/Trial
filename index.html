@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Pink Ribbon</title>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="navbar">
+      <img src="img/Breast-Cancer-Ribbon-PNG-Image.png" class="logo">
+      
+      <nav>
+        <ul id="menuList">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Pink Stories</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+      <img src="img/9436193.png" class="menu-icon" onclick="togglemenu()">
+    </div>
+    
+    <div class="row">
+      <div class="col-1">
+        <h1>Breast Cancer <br>Awareness</h1>
+        <h3>Early diagnosis helps prevention.</h3>
+        <p>The pink ribbon is for warriors.</p>
+        <h4>$5.45</h4>
+        <button type="botton">Donate Now<img src="img/edit.png"></button>
+      </div>
+      
+      <div class="col-2">
+        <img src="img/breast-cancer-awareness-infographic-template-vector.jpg" class="banner">
+        <div class="color-box"></div>
+      
+      </div>
+    </div>
+    
+    <div class="Sm-links">
+      <img src="img/2111463.png">
+      <img src="img/5968764.png">
+    </div>
+    
+  </div>
+  
+  <script>
+  
+  var menuList = document.getElementById("menuList");
+  
+  menuList.style.maxHeight = "0px";
+  
+  function togglemenu(){
+   
+    if(menuList.style.maxHeight == "0px")
+   
+    {
+      menuList.style.maxHeight = "130px";
+    }
+    else{
+      menuList.style.maxHeight = "0px";
+    }
+    
+  }
+  
+  </script>
+  
+</body>
+</html>
